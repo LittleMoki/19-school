@@ -26,7 +26,7 @@ function Slider() {
                 navigation
                 pagination={{clickable: true}}
                 loop={true}
-                autoplay={{delay: 2000}}
+                autoplay={{delay: 3000}}
                 effect="fade"
             >
                 {SliderImages.map((el, index) => {

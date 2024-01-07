@@ -43,12 +43,8 @@
 }
 
 .buttons li > a.active {
-    color: #ffffff;
-    text-decoration: none;
-    border-radius: 0;
-    padding: 20px 30px;
     background: #49D292;
-    font-size: 16px;
+    color: #ffffff;
 }
 
 .buttons li > a {
@@ -59,4 +55,23 @@
     background: #ffffff;
     font-size: 16px;
     border: none !important;
+}
+
+@media (max-width:420px) {
+    .buttons li>a{
+        padding: 14px 20px;
+    }
+}
+
+@media (max-width:440px) {
+
+    .buttons {
+        flex-direction: column;
+        gap: 20px;
+        width: 100%;
+    }
+    .buttons li>a{
+        width: 100%;
+        padding: 10px 15px;
+    }
 }

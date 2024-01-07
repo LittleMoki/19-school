@@ -8,11 +8,11 @@ import {motion} from "framer-motion";
 
 function Footer() {
     const links = [
-        {link: '#!', title: 'Home'},
-        {link: '#!', title: 'Courses'},
-        {link: '#!', title: 'Teachers'},
-        {link: '#!', title: 'News'},
-        {link: '#!', title: 'Contact'},
+        {link: '#home', title: 'Home'},
+        {link: '#events', title: 'Events'},
+        {link: '#courses', title: 'Courses'},
+        {link: '#teachers', title: 'Teachers'},
+        {link: '#contact', title: 'Contact'},
     ]
     return (
         <div className={styles.footer} id='contact'>

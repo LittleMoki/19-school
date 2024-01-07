@@ -42,7 +42,7 @@ function WelcomePage() {
                     <div className={styles.video__page}>
                         <motion.div
                             initial={{opacity: 0, y: '100%'}}
-                            whileInView={{opacity: 1, y: 0}}
+                            animate={{opacity: 1, y: 0}}
                             transition={{duration: 0.5}}
                             className={styles.video__content}>
                             <h3>About School</h3>

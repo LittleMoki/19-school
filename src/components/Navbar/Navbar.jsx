@@ -2,7 +2,6 @@ import {useState} from 'react';
 import {motion, AnimatePresence} from 'framer-motion';
 import styles from './Navbar.module.css';
 import logo from '../../assets/images/logo.png';
-import {Link} from 'react-scroll'
 
 function Navbar() {
     const navbar = [

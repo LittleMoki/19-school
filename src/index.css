@@ -16,3 +16,9 @@
 .swiper-pagination-bullet {
     background-color: #ffff;
 }
+
+@media (max-width:768px) {
+    .swiper-button-next, .swiper-button-prev{
+        padding: 20px;
+    }
+}
