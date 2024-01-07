@@ -1,0 +1,93 @@
+.welcome_page {
+
+}
+.welcome_page__wrapper{
+    background-color: white;
+}
+
+.welcome_page__inner {
+    width: 100%;
+    background-color: #6a41ed;
+    padding: 7em 0;
+    z-index: 5;
+    position: relative;
+}
+
+.welcome_page__inner h2 {
+    font-size: 40px;
+    font-weight: 300;
+    color: #fff;
+    margin-left: 100px;
+}
+
+
+.video__page {
+    height: 100%;
+    width: 100%;
+    display: flex;
+}
+
+.video__page_item {
+    width: 100%;
+    height: 100%;
+
+}
+
+.video__content {
+    width: 30%;
+    margin-right: 20px;
+    padding: 40px;
+    box-shadow: 0 2px 20px 0 rgba(0, 0, 0, .1);
+    background-color: #ffffff;
+    z-index: 1;
+}
+
+.video__content h3{
+    margin: 0 0 20px;
+    padding: 0;
+    font-size: 20px;
+}
+
+.video__content p{
+    margin-bottom: 30px;
+}
+
+.video__content p:last-child{
+    margin: 0;
+}
+
+.video__page_item {
+    width: 70%;
+    height: 400px;
+}
+
+.video__page_item iframe {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+@media (max-width: 992px) {
+    .welcome_page__inner h2 {
+        margin-left: 50px;
+        font-size: 24px;
+    }
+
+    .video__page {
+        flex-direction: column;
+    }
+
+    .video__content {
+        width: 100%;
+    }
+
+    .video__page_item {
+        width: 100%;
+    }
+}
+
+@media (max-width: 575px) {
+    .welcome_page__inner h2 {
+        margin-left: 10px;
+    }
+}

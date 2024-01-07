@@ -1,0 +1,62 @@
+.inner {
+    background: url("../../assets/images/Slider/gal_img_sm_2.jpg") no-repeat;
+    background-size: cover;
+    padding: 7em 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: relative;
+}
+
+.inner::after {
+    content: '';
+    background-color: rgba(0, 0, 0, .4);
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.inner h2 {
+    text-align: center;
+    line-height: 40px;
+    font-size: 40px;
+    font-weight: 300;
+    color: #ffffff;
+    z-index: 3;
+}
+
+.buttons__wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    gap: 10px;
+    bottom: 0;
+    z-index: 3;
+}
+
+.buttons li > a.active {
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 0;
+    padding: 20px 30px;
+    background: #49D292;
+    font-size: 16px;
+}
+
+.buttons li > a {
+    color: #000000;
+    text-decoration: none;
+    border-radius: 0;
+    padding: 20px 30px;
+    background: #ffffff;
+    font-size: 16px;
+    border: none !important;
+}
